@@ -1,0 +1,40 @@
+.message-input-container{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  /* background-color: white; */
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+}
+
+.message-input-field{
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+.message-input-field:hover{
+  border-color: aqua;
+}
+.send-btn{
+  height: 45px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 40px;
+  margin-bottom: 10px;
+  /* transition: border-color 0.5s ease; */ 
+}
+
+.send-btn:hover{
+  border-color: aqua;
+}
